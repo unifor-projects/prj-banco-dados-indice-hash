@@ -1,0 +1,36 @@
+# Python
+# Generic ignore file for Python-related projects.
+
+# Byte-code files
+*.pyc
+__pycache__/
+*.whl
+
+# Distributions and packaging
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+bin/
+lib/
+include/
+share/
+pip-wheel-metadata/
+
+# Environment variables and secrets
+# It's a security best practice to ignore files containing secret keys.
+.env
+.flaskenv
+
+# Editor/IDE specific files
+.idea/  # For PyCharm/IntelliJ
+.vscode/ # For VS Code (optional, but good for shared settings)
+*.swp
+*~
+.DS_Store # macOS specific
