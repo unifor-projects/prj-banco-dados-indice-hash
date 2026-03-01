@@ -1,5 +1,5 @@
-import { ComponentExample } from "@/components/component-example";
+import { HashIndexSimulator } from "@/components/hash-index-simulator";
 
 export default function Page() {
-return <ComponentExample />;
+  return <HashIndexSimulator />;
 }
